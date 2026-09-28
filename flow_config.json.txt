@@ -1,0 +1,10 @@
+{
+  "flow_name": "Standard laptop task",
+  "application": "Global",
+  "run_as": "System user",
+  "trigger": "Service Catalog",
+  "action": "Create Catalog Task",
+  "short_description": "Laptop need to Configured",
+  "assignment_group": "Hardware",
+  "approval": "Approved"
+}

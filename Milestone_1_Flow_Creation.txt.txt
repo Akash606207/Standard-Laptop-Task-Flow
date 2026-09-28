@@ -1,0 +1,22 @@
+STEPS FOR MILESTONE 1 - Standard laptop task Flow:
+1. Open ServiceNow -> All -> Search for Flow Designer
+2. Click Flow Designer under Process Automation
+3. Click New -> Select Flow
+4. Properties:
+   - Name: Standard laptop task
+   - Application: Global
+   - Run As: System user
+5. Click Submit
+6. Click Add a trigger -> Search "Service Catalog" -> Select -> Done
+7. Under Actions -> Add an Action -> Search "Create Catalog Task"
+8. Configure Action:
+   - Action: Create Catalog Task
+   - Request Item: Drag & Drop -> Requested Item Record from Trigger
+   - Table: Auto-populated as Catalog Task [sc_task]
+   - Short Description: Laptop need to Configured
+   - Click Add Field Value:
+     a) Field: Description | Value: Laptop need to Configured
+     b) Field: Assignment Group | Value: Hardware
+     c) Field: Approval | Value: Approved
+9. Leave remaining default -> Click Done
+10. Save Flow -> Click Activate -> Activate again

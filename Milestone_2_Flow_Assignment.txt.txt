@@ -1,0 +1,6 @@
+1. All -> Search for "Maintain Items"
+2. Search Name: Standard Laptop -> Open Record
+3. Go to Process Engine tab
+4. Remove existing Workflow/Flow
+5. Add Flow: Standard laptop task
+6. Save Record

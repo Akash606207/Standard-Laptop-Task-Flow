@@ -1,0 +1,9 @@
+1. All -> Search Service Catalog -> Click Hardware
+2. Find "Standard Laptop" -> Click on it
+3. Click "Order Now"
+4. You will get Order Status + Request Number (e.g., REQ0001003)
+5. Click Request Number -> Opens Request Record
+6. Approve the Request
+7. Open Requested Item (RITM) record
+8. Scroll to Catalog Tasks section
+9. Verify Task with Short Description = Laptop need to Configured, Assignment Group = Hardware
